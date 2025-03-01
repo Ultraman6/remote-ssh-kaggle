@@ -29,7 +29,7 @@ sudo apt update
 sudo apt install openssh-server -y
 
 # SSH Config
-sudo echo "PermitRootLogin no" >> /etc/ssh/sshd_config
+sudo echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 sudo echo "PasswordAuthentication no" >> /etc/ssh/sshd_config
 sudo echo "AuthorizedKeysFile /kaggle/working/.ssh/authorized_keys" >> /etc/ssh/sshd_config
 sudo echo "PubkeyAuthentication yes" >> /etc/ssh/sshd_config
