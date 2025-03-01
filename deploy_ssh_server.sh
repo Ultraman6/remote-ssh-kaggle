@@ -4,7 +4,7 @@
 apt-get install -qq -o=Dpkg::Use-Pty=0 openssh-server pwgen > /dev/null
 
 # Setup authenticational
-echo root:'020627' | chpasswd
+echo root:$1 | chpasswd
 mkdir /kaggle/working/.ssh
 chmod 700 /kaggle/working/.ssh
 
@@ -48,3 +48,7 @@ sudo echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
 sudo echo "PubkeyAuthentication no" >> /etc/ssh/sshd_config
 
 sudo service ssh restart
+
+ngrok config add-authtoken $2
+
+ngrok tcp 22 --region ap
