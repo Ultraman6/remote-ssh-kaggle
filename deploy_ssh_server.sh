@@ -49,4 +49,4 @@ sudo echo "PubkeyAuthentication no" >> /etc/ssh/sshd_config
 
 sudo service ssh restart
 
-ngrok tcp 22 --region ap 2thsElTJprltHGvgaqvDnnJ12nv_3Y2EowCm9XJJnNNyDjRDE
+ngrok tcp 22 --region ap authtoken 2thsElTJprltHGvgaqvDnnJ12nv_3Y2EowCm9XJJnNNyDjRDE
