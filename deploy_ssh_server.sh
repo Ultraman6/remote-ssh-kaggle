@@ -48,5 +48,3 @@ sudo echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
 sudo echo "PubkeyAuthentication no" >> /etc/ssh/sshd_config
 
 sudo service ssh restart
-
-ngrok tcp 22 --region ap 2thsElTJprltHGvgaqvDnnJ12nv_3Y2EowCm9XJJnNNyDjRDE
