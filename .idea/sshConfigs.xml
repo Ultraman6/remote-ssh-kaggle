@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="0.tcp.ap.ngrok.io" id="5a26c7b1-2177-4657-b8a1-c758dd074764" port="11521" customName="kaggle (wustxyz)" nameFormat="CUSTOM" username="root" useOpenSSHConfig="false">
+        <option name="customName" value="kaggle (wustxyz)" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="0.tcp.ap.ngrok.io" id="9c6c18dd-254f-4c00-9c01-301d6c690ae7" port="11153" customName="kaggle (wustyuzhao)" nameFormat="CUSTOM" username="root" useOpenSSHConfig="false">
+        <option name="customName" value="kaggle (wustyuzhao)" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>
