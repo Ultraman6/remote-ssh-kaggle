@@ -5,8 +5,8 @@ apt-get install -qq -o=Dpkg::Use-Pty=0 openssh-server pwgen > /dev/null
 
 # Setup authenticational
 echo root:$1 | chpasswd
-mkdir /kaggle/working/.ssh
-chmod 700 /kaggle/working/.ssh
+mkdir /kaggle/nbdev/.ssh
+chmod 700 /kaggle/nbdev/.ssh
 
 # Config sshd server
 mkdir -p /var/run/sshd
