@@ -9,17 +9,6 @@ then
     rm ngrok-v3-stable-linux-amd64.tgz
 fi
 
-# Install SSH-Server
-sudo apt update
-sudo apt install openssh-server -y
-
-# SSH Config
-sudo echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
-sudo echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
-sudo echo "PubkeyAuthentication no" >> /etc/ssh/sshd_config
-
-sudo service ssh restart
-
 ngrok config add-authtoken $1
 
 ngrok tcp 22 --region ap

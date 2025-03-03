@@ -23,3 +23,14 @@ echo "PrintLastLog yes" >> /etc/ssh/sshd_config
 echo "AcceptEnv LANG LC_*" >> /etc/ssh/sshd_config
 
 sudo apt-get update --allow-releaseinfo-change
+
+# Install SSH-Server
+sudo apt update
+sudo apt install openssh-server -y
+
+# SSH Config
+sudo echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
+sudo echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
+sudo echo "PubkeyAuthentication no" >> /etc/ssh/sshd_config
+
+sudo service ssh restart
