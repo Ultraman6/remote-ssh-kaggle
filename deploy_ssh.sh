@@ -1,7 +1,7 @@
 #!/bin/bash#
 
 # Setup authenticational
-echo root:$1 | chpasswd
+echo root:$1 | sudo chpasswd
 
 # Install SSH-Server
 sudo apt update
