@@ -11,4 +11,4 @@ fi
 
 ngrok config add-authtoken $1
 
-ngrok tcp 22 --region ap
+ngrok tcp 22 --region ap --remote-addr 1.tcp.ngrok.io:20301
