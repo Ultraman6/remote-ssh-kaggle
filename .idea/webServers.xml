@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="c7adc829-d53f-405c-b9ed-f9b5e254d0c0" name="kaggle (wustxyz)">
-        <fileTransfer accessType="SFTP" host="110.42.96.64" port="33222" sshConfigId="5a26c7b1-2177-4657-b8a1-c758dd074764" sshConfig="Kaggle (wustxyz)">
+        <fileTransfer accessType="SFTP" host="mofrp.top" port="10842" sshConfigId="5a26c7b1-2177-4657-b8a1-c758dd074764" sshConfig="Kaggle (wustxyz)">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
